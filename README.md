@@ -1,9 +1,9 @@
 # Argon2
 
-[![Build Status](https://travis-ci.org/P-H-C/phc-winner-argon2.svg?branch=master)](https://travis-ci.org/P-H-C/phc-winner-argon2)
-[![Build status](https://ci.appveyor.com/api/projects/status/8nfwuwq55sgfkele?svg=true)](https://ci.appveyor.com/project/P-H-C/phc-winner-argon2)
-[![codecov.io](https://codecov.io/github/P-H-C/phc-winner-argon2/coverage.svg?branch=master)](https://codecov.io/github/P-H-C/phc-winner-argon2?branch=master)
+## Fork
+This is a fork of the reference implementation of Argon2 algorithms. This replaces the build system with CMake for easier cross platform inclusion. Only a subset of functionality is implemented.
 
+## Original description
 This is the reference C implementation of Argon2, the password-hashing
 function that won the [Password Hashing Competition
 (PHC)](https://password-hashing.net).
