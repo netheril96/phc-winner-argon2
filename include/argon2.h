@@ -29,7 +29,6 @@ extern "C" {
 /* The following definition is irrelevant in this fork because we support only static linking */
 #define ARGON2_PUBLIC
 #define ARGON2_LOCAL
-#endif
 
 /*
  * Argon2 input parameter restrictions
