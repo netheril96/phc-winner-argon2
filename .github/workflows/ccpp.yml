@@ -40,4 +40,4 @@ jobs:
       - name: build
         run: cmake --build build
       - name: test
-        run: cd build && ctest -V
+        run: cd build && ctest -V -C Release
