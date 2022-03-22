@@ -1,7 +1,10 @@
-cmake_minimum_required(VERSION 3.0 FATAL_ERROR)
+cmake_minimum_required(VERSION 3.1 FATAL_ERROR)
 
 project(argon2)
 enable_testing()
+
+find_package(Threads REQUIRED)
+link_libraries(Threads::Threads)
 
 include_directories(include src)
 add_library(argon2_static STATIC src/argon2.c src/core.c src/blake2/blake2b.c src/thread.c src/encoding.c src/ref.c)
